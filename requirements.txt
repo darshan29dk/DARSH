@@ -1,0 +1,22 @@
+speechrecognition>=3.8.1
+faster-whisper>=0.8.0; platform_system == "Windows"
+whisper; platform_system == "Windows"
+mss>=6.1.0
+pytesseract>=0.3.10
+pyautogui>=0.9.53
+keyboard>=0.13.5
+playwright>=1.40.0
+apscheduler>=3.10.1
+psutil>=5.9.5
+pystray>=0.19.5
+Pillow>=9.5.0
+requests>=2.31.0
+pyinstaller>=5.13.0
+sqlalchemy>=2.0.20
+pyttsx3>=2.90
+
+# Optional/conditional (offline wake-word)
+pocketsphinx>=0.1.15
+
+# Windows-specific dependencies
+pywin32>=306; platform_system == "Windows"
